@@ -1,0 +1,20 @@
+# Apple Rootstock Image Analysis — Requirements
+# Install with: pip install -r requirements.txt
+
+# Deep learning (quality classifier, blurry/shadow detectors)
+torch>=2.2.0
+torchvision>=0.17.0
+Pillow>=10.0.0
+
+# Data handling
+pandas>=2.0.0
+numpy>=1.26.0
+
+# Machine learning
+scikit-learn>=1.4.0
+
+# Computer vision (cold damage scorer)
+opencv-python>=4.9.0
+scikit-image>=0.22.0
+scipy>=1.12.0
+streamlit>=1.35.0
